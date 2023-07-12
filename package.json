@@ -1,0 +1,26 @@
+{
+  "name": "lesson54---rent_power_tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-static": "^5.0.0",
+    "pg": "^8.11.1",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
